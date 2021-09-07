@@ -6,6 +6,7 @@ This is a chrome extension that adds an export button to all glades in the Amazi
 
 ## CSV Syntax
 
+This is the same syntax as [this](https://github.com/CalliEve/windesheim_glade) "Taal 20" interpreter uses.
 | letter | object         | number                                          |
 | ------ | -------------- | ----------------------------------------------- |
 | q      | obstacle       |
