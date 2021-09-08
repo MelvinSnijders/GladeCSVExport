@@ -1,9 +1,18 @@
 let button = document.createElement("button");
 button.innerHTML = "Export naar CSV";
 button.classList.add("btn", "btn-success");
+button.style.display = "block";
 
 let insertLocation = document.getElementsByName("Glade")[0];
-insertLocation.prepend(button);
+if (insertLocation != null) {
+    insertLocation.prepend(button);
+}
+
+let editorLocation = [...document.querySelectorAll("h3")]
+    .filter(a => a.textContent.includes("Editor"))[0]
+if (editorLocation != null) {
+    editorLocation.prepend(button);
+}
 
 const colors = ["l", "p", "b", "e", "y", "o", "r", "g", "w"]
 

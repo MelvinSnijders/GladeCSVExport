@@ -7,7 +7,8 @@
         {
             "matches": [
                 "https://amazing.hbo-ict.org/assignments/view/*",
-                "https://amazing.hbo-ict.org/assignments/create/*"
+                "https://amazing.hbo-ict.org/assignments/create/*",
+                "https://amazing.hbo-ict.org/mymaze"
             ],
             "js": [
                 "src/content-script.js"
