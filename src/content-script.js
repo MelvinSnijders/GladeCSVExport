@@ -24,7 +24,7 @@ button.addEventListener("click", function () {
             const number = child.getAttribute('value');
 
             switch (type) {
-                case "wood": case "bush": case "stone":
+                case "wood": case "bush": case "stone": case "debris":
                     return "q";
                 case "bomb":
                     return "x" + number;
